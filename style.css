@@ -70,7 +70,7 @@ Styles
 }
 
 .wrapper .subscription {
-  padding: 20px;
+  padding: 25px;
   background: hsl(179, 63%, 36%);
 }
 
@@ -83,7 +83,8 @@ Styles
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  border: none;
+  box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 .info-price {
@@ -99,7 +100,7 @@ Styles
   background: hsl(179, 62%, 43%);
 }
 
-@media (min-width: 450px) {
+@media (min-width: 600px) {
   .container {
     width: 600px;
     margin: 0 auto;
