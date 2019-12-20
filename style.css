@@ -1,0 +1,102 @@
+/* Frontend Mentor Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* 
+*Global
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+body {
+  background: hsl(204, 43%, 93%);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: hsl(179, 62%, 43%);
+}
+
+h3 {
+  color: hsl(71, 73%, 54%);
+}
+
+h2,
+h3,
+h4 {
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+p {
+  margin: 10px 0;
+}
+
+li {
+  list-style: none;
+  color: hsla(203, 44%, 93%, 0.5);
+}
+
+.lighter-grey {
+  color: hsla(203, 44%, 93%, 0.5);
+}
+
+/* 
+Styles
+*/
+
+.info {
+  background: #fff;
+  padding: 20px;
+}
+
+.info p {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.75;
+}
+
+.wrapper .subscription {
+  padding: 20px;
+  background: hsl(179, 63%, 36%);
+}
+.wrapper .subscription p {
+}
+
+.wrapper .subscription .btn {
+  text-align: center;
+}
+.wrapper .subscription button {
+  background: hsl(71, 73%, 54%);
+  padding: 80px 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.info-price {
+  display: inline-block;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.wrapper .why-us {
+  padding: 20px;
+  background: hsl(179, 62%, 43%);
+}
