@@ -100,9 +100,6 @@ Styles
 }
 
 @media (min-width: 850px) {
-  body {
-  }
-
   .container {
     width: 40%;
     margin: 0 auto;

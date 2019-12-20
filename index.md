@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap"
       rel="stylesheet"
     />
+
   </head>
   <body>
     <div class="container">
@@ -73,5 +74,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
     </footer>
+
   </body>
 </html>
