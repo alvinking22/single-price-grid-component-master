@@ -73,15 +73,13 @@ Styles
   padding: 20px;
   background: hsl(179, 63%, 36%);
 }
-.wrapper .subscription p {
-}
 
 .wrapper .subscription .btn {
   text-align: center;
 }
 .wrapper .subscription button {
   background: hsl(71, 73%, 54%);
-  padding: 80px 200px;
+  padding: 3% 30%;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
@@ -99,4 +97,25 @@ Styles
 .wrapper .why-us {
   padding: 20px;
   background: hsl(179, 62%, 43%);
+}
+
+@media (min-width: 850px) {
+  body {
+  }
+
+  .container {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+  .wrapper .subscription {
+    width: 50%;
+  }
+  .wrapper .why-us {
+    width: 50%;
+  }
 }
