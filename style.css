@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -99,9 +99,9 @@ Styles
   background: hsl(179, 62%, 43%);
 }
 
-@media (min-width: 850px) {
+@media (min-width: 450px) {
   .container {
-    width: 40%;
+    width: 600px;
     margin: 0 auto;
   }
 
