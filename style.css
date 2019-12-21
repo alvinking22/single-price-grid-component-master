@@ -88,11 +88,13 @@ Styles
 }
 
 .info-price {
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
-.price {
+.info-price .price {
   font-size: 2rem;
+  padding-right: 5px;
 }
 
 .wrapper .why-us {
