@@ -69,15 +69,15 @@ Styles
   line-height: 1.75;
 }
 
-.wrapper .subscription {
+.subscription {
   padding: 25px;
   background: hsl(179, 63%, 36%);
 }
 
-.wrapper .subscription .btn {
+.subscription .btn {
   text-align: center;
 }
-.wrapper .subscription button {
+.subscription button {
   background: hsl(71, 73%, 54%);
   padding: 3% 30%;
   border-radius: 5px;
@@ -97,7 +97,7 @@ Styles
   padding-right: 5px;
 }
 
-.wrapper .why-us {
+.why-us {
   padding: 20px;
   background: hsl(179, 62%, 43%);
 }
@@ -105,17 +105,18 @@ Styles
 @media (min-width: 600px) {
   .container {
     width: 600px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: auto auto;
   }
 
-  .wrapper {
-    display: flex;
+  .info {
+    grid-column: 1 / span 2;
   }
-
-  .wrapper .subscription {
-    width: 50%;
+  .subscription {
+    grid-row: 2/2;
   }
-  .wrapper .why-us {
-    width: 50%;
+  .why-us {
+    grid-row: 2/2;
   }
 }
